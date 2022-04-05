@@ -26,7 +26,7 @@ body {
 .fix {
     margin: 0 auto;
     padding: 40px 20px;
-    width: 1340px;
+    max-width: 1340px;
     display: flex;
     justify-content: space-between ;
     align-items: center;
@@ -154,7 +154,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between ;
     margin: 0 auto;
-    width: 1290px;
+    max-width: 1290px;
     align-items: center;
     margin-bottom: 90px;
 
@@ -212,7 +212,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    width: 1290px;
+    max-width: 1290px;
 }
 
 .title-localize{
@@ -244,7 +244,7 @@ body {
 }
 
 .boost {
-    width: 1290px;
+    max-width: 1290px;
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
@@ -297,7 +297,7 @@ body {
 .box-comment {
     display: flex;
     padding: 53px 0 105px 0;
-    width: 1290px;
+    max-width: 1290px;
     justify-content: space-between;
 
 }
@@ -327,7 +327,6 @@ body {
 }
 
 .p-comment {
-    width: 895px;
     font-size: 30px;
     line-height: 40px;
     margin-bottom: 23px;
@@ -340,7 +339,7 @@ body {
 }
 
 .fix-cake {
-    width: 1290px;
+    max-width: 1290px;
     margin-left: 55px;
     display: flex;
     flex-flow: row nowrap;
@@ -390,7 +389,7 @@ body {
 
 .localize {
     margin: 0 auto;
-    width: 1023px;
+    max-width: 1023px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +425,7 @@ body {
 
 .fix-wait {
     margin: 0 auto;
-    width: 784px;
+    max-width: 784px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -536,7 +535,7 @@ body {
     padding-top: 52px;
     padding-bottom: 43px;
     margin: 0 auto;
-    width: 1290px;
+    max-width: 1290px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -639,3 +638,10 @@ body {
     margin-bottom: 67px;
 }
 
+.img-comment{
+    width: 100%;
+}
+
+.chiken{
+    max-width: 1023px;
+}
